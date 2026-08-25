@@ -6,7 +6,7 @@
 
 :root {
 
-   body {
+ body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -329,7 +329,7 @@ h4 {
 
 .header-inner {
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: space-between;
   gap: 1rem;
   height: 4.5rem;
@@ -337,7 +337,7 @@ h4 {
 
 .brand {
   display: flex;
-  align-items: center;
+  align-items: left;
   gap: 0.75rem;
 }
 
@@ -363,7 +363,7 @@ h4 {
 
 .nav-desktop {
   display: none;
-  align-items: center;
+  align-items: right;
   gap: 1.75rem;
 }
 
@@ -380,7 +380,7 @@ h4 {
 
 .header-actions {
   display: flex;
-  align-items: center;
+  align-items: right;
   gap: 0.5rem;
 }
 
@@ -390,7 +390,7 @@ h4 {
 
 .menu-toggle {
   display: grid;
-  place-items: center;
+  place-items: right;
   width: 2.5rem;
   height: 2.5rem;
   border: 1px solid var(--border);
