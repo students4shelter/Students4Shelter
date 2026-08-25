@@ -5,6 +5,23 @@
    ========================================================================== */
 
 :root {
+
+   body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;   /* centers inline content */
+}
+
+/* Center block elements inside containers */
+.container {
+  width: 100%;
+  margin: 0 auto;        /* centers the container itself */
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centers children horizontally */
+}
+
   color-scheme: light;
 
   /* cream */
