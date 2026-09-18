@@ -329,7 +329,7 @@ header {
 
 /* If you want everything centered instead of spaced apart */
 header.centered {
-  justify-content: center;
+  justify-content: left;
   gap: 20px;
 }
 
@@ -344,7 +344,7 @@ header {
 
 .header-inner {
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: space-between;
   gap: 1rem;
   height: 4.5rem;
@@ -395,7 +395,7 @@ header {
 
 .header-actions {
   display: flex;
-  align-items: center;
+  align-items: right;
   gap: 0.5rem;
 }
 
@@ -446,7 +446,7 @@ header {
 .hero {
   width: 100%;
   min-height: 100vh;              /* makes it full screen */
-  background-image: url("your-image.jpg");
+  background-image: url("..\images\Screenshot 2016-09-18 164041.png");
   background-size: cover;         /* fills the whole area */
   background-position: center;    /* keeps the focus centered */
   background-repeat: no-repeat;   /* prevents tiling */
@@ -486,7 +486,7 @@ header {
 }
 
 .hero-grid {
-  position: relative;
+  position: center;
   display: grid;
   gap: 3.5rem;
   padding-top: 4rem;
@@ -544,7 +544,7 @@ header {
 }
 
 .hero-media {
-  position: relative;
+  position: center;
 }
 
 .hero-photo {
