@@ -82,13 +82,13 @@ a { text-decoration: none; color: inherit; }
 }
 .header-inner {
   display: flex;
-  align-items: center;
+  align-items: right;
   justify-content: space-between;
   height: 64px;
 }
 .logo {
   display: flex;
-  align-items: center;
+  align-items: left;
   gap: 10px;
   font-weight: 700;
   font-size: 16px;
@@ -99,7 +99,7 @@ a { text-decoration: none; color: inherit; }
 
 .nav-links {
   display: flex;
-  align-items: center;
+  align-items: right;
   gap: 32px;
 }
 .nav-link {
