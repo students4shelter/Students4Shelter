@@ -345,7 +345,7 @@ header {
 .header-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 1rem;
   height: 4.5rem;
 }
@@ -420,11 +420,18 @@ header {
   padding: 0 var(--gutter) 1.25rem;
 }
 
-.nav-mobile a {
-  display: block;
-  padding: 0.875rem 0;
-  font-weight: 500;
-  border-bottom: 1px solid color-mix(in oklab, var(--border) 60%, transparent);
+nav ul {
+    display: flex;
+    gap: 2rem;          /* space between links */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
 }
 
 .nav-mobile-cta {
@@ -446,7 +453,7 @@ header {
 .hero {
   width: 100%;
   min-height: 100vh;              /* makes it full screen */
-  background-image: url("your-image.jpg");
+  background-image: url("students4shelter\images\Screenshot 2026-09-18 164041.png");
   background-size: cover;         /* fills the whole area */
   background-position: center;    /* keeps the focus centered */
   background-repeat: no-repeat;   /* prevents tiling */
@@ -458,14 +465,14 @@ header {
 }
 
 .hero-blobs {
-  position: absolute;
+  position: center;
   inset: 0;
   pointer-events: none;
 }
 
 .hero-blob-1,
 .hero-blob-2 {
-  position: absolute;
+  position: center;
   display: block;
 }
 
