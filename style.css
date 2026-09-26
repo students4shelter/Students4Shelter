@@ -123,7 +123,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .mission-visual { position: relative; min-height: 410px; display: grid; align-items: center; padding: 30px; }
 .mission-blob { position: relative; z-index: 1; width: 100%; min-height: 350px; display: flex; flex-direction: column; justify-content: center; padding: clamp(30px, 5vw, 58px); overflow: hidden; border-radius: 46% 54% 55% 45% / 44% 43% 57% 56%; color: white; background: linear-gradient(140deg, rgba(71,45,30,.69), rgba(168,83,38,.76)), url('https://images.pexels.com/photos/8078518/pexels-photo-8078518.jpeg') center / cover; box-shadow: var(--shadow); }
 .mission-heading { margin: 0 0 18px; font: 700 clamp(2.2rem, 4vw, 3rem)/1.05 'Playfair Display', Georgia, serif; }
-.mission-text { margin: 0; font-size: 1rem; line-height: 1.75; }
+.mission-text { margin: 0.5; font-size: 0.95rem; line-height: 1.75; }
 .mission-accent-blob { position: absolute; right: 0; bottom: 0; width: 126px; height: 126px; border-radius: 48% 52% 34% 66%; background: #f2b278; opacity: .56; }
 .mission-copy .eyebrow { margin-bottom: 10px; }
 .pillars { display: grid; gap: 19px; margin: 25px 0 0; padding: 0; list-style: none; }
