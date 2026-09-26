@@ -81,7 +81,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 /* Hero */
 .hero {
   position: relative; isolation: isolate; overflow: hidden; padding: clamp(68px, 9vw, 120px) 0 70px;
-  color: #fff; background: #523b2c url('https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=2000&q=85') center 48% / cover no-repeat;
+  color: #fff; background: #523b2c url('images/Screenshot 2026-09-18 164041.png') center 48% / cover no-repeat;
 }
 .hero::before { position: absolute; z-index: -1; inset: 0; content: ''; background: linear-gradient(90deg, rgba(31,25,21,.88) 0%, rgba(44,32,24,.72) 51%, rgba(45,32,23,.25) 100%); }
 .hero-blobs { position: absolute; z-index: -1; inset: 0; overflow: hidden; pointer-events: none; }
